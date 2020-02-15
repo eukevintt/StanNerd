@@ -1,0 +1,441 @@
+
+*{
+	overflow: -moz-scrollbars-vertical;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #0a0a0a;
+}
+
+
+#particles-js{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #0a0a0a;
+
+
+}
+
+.slide-show-h1{
+	left: 50%;
+	transform: rotate3d(0, 0, 0, 10deg);
+	font-size: 60px;
+	font-family: 'Hind Guntur', sans-serif !important;
+	text-align: center;
+	color: rgb(231, 76, 60);
+	filter:drop-shadow(2px 00px 0px #96281b) ;
+}
+
+.swiper-container {
+	width: 70%;
+	height: 600px;
+}
+
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #222;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+
+header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all .5s linear;
+}
+
+header img:hover{
+	filter: contrast(200%);
+	transform: scale(1.5) drop-shadow(10px 10px 0px red);
+
+}
+
+
+
+video{
+	z-index: -2;
+	max-width: 960px;
+	margin: 0px auto;
+	display:block;
+}
+
+
+/*.video1::after{
+	content:'';
+	width: 100px;
+	height: 6px;
+	background: red;
+	display: block;
+	margin: 0px auto;
+	border-radius: 20px;
+	}*/
+
+	.grid-container {
+		display: grid;
+		height: 400px;
+		grid-template-columns: auto auto auto auto;
+		grid-gap: 0px;
+		padding: 0px;
+
+	}
+
+	.grid-container > div {
+		background-color: rgba(255, 255, 255, 0.8);
+		border-bottom: 5px solid red;
+		text-align: center;
+		font-size: 10px;
+		vertical-align: middle;
+	}
+
+	.xop-section{
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 2% 2%;
+
+	}
+
+	.xop-grid{
+		margin: 20px 0 0 0;
+		padding: 0;
+		list-style: none;
+		display: block;
+		text-align: center;
+		font-size: 2px;
+		width: 100%;
+
+	}
+
+	.xop-grid:after{
+		clear: both;
+	}
+
+	.xop-grid:after, xop-box:before{
+		content: ;
+		display: table;
+	}
+
+	.xop-grid li{
+		width: 228px;
+		height: 228px;
+		display: inline-grid;
+		margin: 10px;
+		font-size: 2px;
+	}
+
+	.xop-box{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		cursor: pointer;
+		border-radius: 15px 50px;
+		/*border-radius: -10px; #e53434 */
+		-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3 ease-in-out;
+		-moz-transition: 0.3s ease-in-out, -moz-transform 0.3 ease-in-out;
+		transition: 0.3s ease-in-out, transform 0.3 ease-in-out;
+		font-size: 2px;
+		border-style: solid red;
+
+	}
+
+	.xop-box:hover{
+		transform: scale(1.10);
+		transition: .5s;
+		filter:grayscale(90%) drop-shadow(10px 00px 0px red) ; 
+		color: black;
+		
+
+	}
+
+	.not-1{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../noticias/disney compra fox/mickey.gif');
+		background-position: center;
+	}
+
+	.not-2{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../noticias/novo trailer de homem aranha chegando/spider2.gif');
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.not-3{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../noticias/cinemark anuncia pre-venda de shazam/shazam2.gif');
+		background-position: center;
+	}
+
+	.not-4{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../noticias/disney compra fox/img-index.jpg');
+		background-position: center;
+	}
+
+	.not-5{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../img/avatar.gif');
+		background-position: center;
+	}
+
+	.not-6{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../img/avatar.gif');
+		background-position: center;
+	}
+
+
+	.xop-img-1{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../img/avenger.gif');
+		background-size: 153%;
+	}
+
+	.xop-img-2{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../img/starwars.gif');
+		background-size: 100%;
+	}
+
+	.xop-img-3{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../img/dc.gif');
+		background-position: right;
+		background-size: 150%;
+	}
+
+	.xop-img-4{
+		background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url('../img/arrowverse.gif');
+		background-size: 189%;
+		background-position: center;
+	}
+
+	.xop-img-5{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../img/marvelnetflix.gif');
+		background-size: 250%;
+		background-position: center;
+	}
+
+	.xop-img-6{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../img/piratasdocaribe.gif');
+		background-size: 125%;
+	}
+
+	.xop-img-7{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../img/harrypotter.gif');
+		background-size: 100%;
+
+	}
+
+	.xop-img-8{
+		background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url('../img/xmen.gif');
+		background-size: 100%;
+	}
+	.xop-img-9{
+		background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url('../img/pokemon.gif');
+		background-size: 180%;
+		background-position: center;
+	}
+
+	.xop-img-10{
+		background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url('../img/dragonball.gif');
+		background-position: center;
+		background-size: 140%;
+	}
+
+	.xop-img-11{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../img/naruto.gif');
+		background-size: 179%;
+	}
+
+	.xop-img-12{
+		background: linear-gradient( rgba(0, 0, 0, 0.50),  rgba(0, 0, 0, 0.10)), url('../img/avatar.gif');
+		background-position: center;
+	}
+
+
+	.xop-info{
+		position: absolute;
+		width: inherit;
+		height: inherit;
+		font-family: 'Hind Guntur', sans-serif !important;
+		font-weight: 400;
+		color: #fff;
+		font-size: 15px;
+		margin: 0 30px;
+		padding: 100px 0 0 0;
+		line-height: 1.5;
+	}
+
+	.xop-info p{
+		font-family: 'Source Sans pro', sans-serif !important;
+		color: #fff;
+	}
+
+	.grid-1 h1{
+		position: relative;
+		font-family: 'Hind Guntur', sans-serif !important;
+		color: white;
+		text-align: center;
+
+	}
+
+	.grid-1 h1::after{
+		content:'';
+		width: 100px;
+		height: 3px;
+		background: #db343c;
+		display: block;
+		margin: 2px auto;
+		border-radius: 20px;
+	}
+
+	#rodape{
+		width: 100%;
+		padding: 40px;
+		min-height: 20px;
+		background-image: linear-gradient(45deg, #161616, #2d2d2d, #161616 );
+		/*background: #2d2d2d;*/
+		border-top: 6px solid rgb(231, 76, 60);
+	}
+
+	#rodape h1{
+		color: white;
+		text-align: center;
+		font-family: 'Hind Guntur', sans-serif !important;
+	}
+
+	#rodape p{
+		color: white;
+		font-family: 'Hind Guntur', sans-serif !important;
+		font-size: 25px;
+	}
+
+	#grid-contato-index{
+		display: block;
+	}
+
+	#grid-contato-index > div{
+		display: inline-block;
+		width: 500px;
+
+	}
+
+	#rodape #contato-index{
+		
+	}
+
+	#rodape #contato-index input, textarea, #botao-enviar input{
+		padding: 20px;
+		width: 100%;
+		padding: 8px 0;
+		margin: 8px 0;
+	}
+
+	#rodape #contato-index input, textarea{
+		padding: 20px;
+		width: 100%;
+		overflow: hidden;
+		font-size: 20px;
+		padding: 8px 0;
+		margin: 8px 0;
+		border: none;
+		outline: none;
+		background: white;
+		color: white;
+		border-bottom: 4px solid rgb(231, 76, 60);
+		border-radius: 4px;
+	}
+
+
+	#botao-enviar input{
+		background: #e53434 ;
+		padding: 20px;
+		border: none #5e0d0d;
+		color: white;
+		font-family: 'Hind Guntur', sans-serif !important;
+		text-align: center;
+		border-radius: 4px;
+	}
+
+	#botao-enviar input:hover{
+		transition: .4s ease-in-out;
+		transform: hue-rotate(190deg) scale(1.05);
+		border-bottom: 8px solid #5e0d0d;
+		border-radius: 20px;
+	}
+
+
+	#botao-enviar input:hover{
+		outline: none;
+	}
+
+	#table-index{
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header{
+	width: 100%;
+	height: 800px;
+	background: rgba(2,2,2,0);
+
+
+}
+
+ul{
+  list-style-type: none;
+  background: #04050c;
+  /*background: rgba(2,2,2,0);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari 
+  position: sticky;
+  top: 0;
+   transition: background-color 0.3s ease-in-out;
+}
+
+li{
+
+float: left; 
+
+
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+
+li a:hover {
+  transform: scale(1.2);
+  transform
+}
+
+
+

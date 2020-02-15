@@ -1,0 +1,173 @@
+*{
+	overflow: -moz-scrollbars-vertical;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #0a0a0a;
+	background: url('../img/background register.jpg') no-repeat;
+	background-size: cover;
+}
+
+
+header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all .5s linear;
+}
+
+header img:hover{
+	filter: contrast(200%);
+	transform: scale(1.5) drop-shadow(10px 10px 0px red);
+
+}
+
+
+
+
+
+.register{
+	width: 280px;
+	position: relative;
+	margin: 200px 400px 20px 50%;
+	transform: translate(-50%, -50%);
+
+} 
+
+.rgst{
+	padding: 20px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	border-bottom: 4px solid rgb(231, 76, 60);
+
+}
+
+option{
+	color: black;
+}
+
+.btn{
+	padding: 20px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border: none;
+	outline: none;
+	background: rgb(231, 76, 60);
+	color: white;
+}
+
+.btn:hover{
+	transform: scale(1.05);
+	filter: drop-shadow(10px 00px 0px #a5362b) ; 
+	transition: .1s linear;
+}
+
+.h1-register{
+	width: 280px;
+	position: relative;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	color: white;
+	font-family: 'Hind Guntur', sans-serif !important;
+	border-bottom: 2.5px solid rgb(231, 76, 60);
+	text-align: center;
+	
+}
+
+#rodape{
+	width: 100%;
+	padding: 40px;
+	min-height: 20px;
+	background-image: linear-gradient(45deg, #161616, #2d2d2d, #161616 );
+	/*background: #2d2d2d;*/
+	border-top: 6px solid rgb(231, 76, 60);
+}
+
+#rodape h1{
+	color: white;
+	text-align: center;
+	font-family: 'Hind Guntur', sans-serif !important;
+}
+
+#rodape p{
+	color: white;
+	font-family: 'Hind Guntur', sans-serif !important;
+	font-size: 25px;
+}
+
+#grid-contato-index{
+	display: block;
+}
+
+#grid-contato-index > div{
+	display: inline-block;
+	width: 500px;
+
+}
+
+#rodape #contato-index{
+	
+}
+
+#rodape #contato-index input, textarea, #botao-enviar input{
+	padding: 20px;
+	width: 100%;
+	padding: 8px 0;
+	margin: 8px 0;
+}
+
+#rodape #contato-index input, textarea{
+	padding: 20px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border: none;
+	outline: none;
+	background: white;
+	color: white;
+	border-bottom: 4px solid rgb(231, 76, 60);
+	border-radius: 4px;
+}
+
+
+#botao-enviar input{
+	background: #e53434 ;
+	padding: 20px;
+	border: none #5e0d0d;
+	color: white;
+	font-family: 'Hind Guntur', sans-serif !important;
+	text-align: center;
+	border-radius: 4px;
+}
+
+#botao-enviar input:hover{
+	transition: .4s ease-in-out;
+	transform: hue-rotate(190deg) scale(1.05);
+	border-bottom: 8px solid #5e0d0d;
+	border-radius: 20px;
+}
+
+
+#botao-enviar input:hover{
+	outline: none;
+}
+
+#table-index{
+
+}

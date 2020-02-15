@@ -1,0 +1,44 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.redesocial{
+
+  z-index: 99;
+  position:fixed;
+  top:50%;
+  right:0;
+  vertical-align: middle;
+
+
+}
+.botao{
+
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 30%;
+
+  color: #db343c;
+  /*#3498db*/
+  position: relative;
+}
+.botao i{
+  line-height: 40px;
+  font-size: 26px;
+  transition: 0.2s linear;
+
+}
+.botao:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+.mediasocialul{
+}
+
+.mediasocialli{
+  list-style: none;
+  text-decoration: none;
+}
+
